@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-geist-mono), monospace;
+  }
+}
