@@ -68,9 +68,6 @@ export default function UserOverview() {
       {/* Top Banner */}
       <div className="bg-gradient-to-r from-[#0F382B] to-[#10B981] p-6 lg:p-8 rounded-2xl text-white shadow-lg flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <span className="bg-[#34D399]/20 text-[#34D399] px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-[#34D399]/30">
-            Active Tier: {stats?.currentPlan || "Free"}
-          </span>
           <h1 className="text-2xl lg:text-3xl font-black mt-2">User Sustainability Dashboard</h1>
           <p className="text-emerald-100 text-sm mt-1 max-w-xl">
             Live metrics aggregated directly from your personal MongoDB collections and payment nodes.
